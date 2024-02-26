@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a556ff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(24, 24, 134);
+}
+
+.world-clock{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px;
+}
+
+.clock-text{
+    font-size: 18px;
+}
+
+.clock-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
